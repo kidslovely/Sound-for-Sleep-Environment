@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/n1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/ntext"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="soundsleep|timer is off\n   playing"
+        android:textColor="@android:color/black"/>
+
+    <ImageButton
+        android:id="@+id/n2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@android:drawable/ic_media_pause" />
+
+    <ImageButton
+        android:id="@+id/n3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+</LinearLayout>

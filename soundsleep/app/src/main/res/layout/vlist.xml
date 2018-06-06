@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fflist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/picture_frame"
+    android:paddingTop="10dp">
+    <TextView
+        android:id="@+id/vtlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="5"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+    <SeekBar
+        android:id="@+id/vseekbar"
+        android:layout_width="130dp"
+        android:layout_height="26dp"
+        android:max="10"
+        android:minWidth="120dp"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imgexit"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="right|end"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+</LinearLayout>

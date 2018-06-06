@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">soundsleep</string>
+    <string name="title_activity_flist_adapter">flistAdapter</string>
+</resources>

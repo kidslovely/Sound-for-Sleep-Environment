@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.soundsleep">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="noise sound"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TimerDialogFragment" />
+        <activity android:name=".FavoriteActivity" />
+        <activity android:name=".volumFragment" />
+        <activity android:name=".adddialog" />
+        <activity
+            android:name=".flistAdapter"
+            android:label="@string/title_activity_flist_adapter"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".addActivity" />
+        <activity android:name=".tsetting_dialog" />
+        <activity android:name=".setting_activity"></activity>
+        <service android:name="AudioService"/>
+        <receiver android:name="MainActivity$bplay"/>
+        <receiver android:name="MainActivity$bclose"/>
+    </application>
+
+</manifest>

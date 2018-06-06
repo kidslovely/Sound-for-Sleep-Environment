@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/fr"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:alpha="0.4"
+        android:layout_gravity="center"
+        android:background="@layout/buttonshape"
+        >
+
+        <ImageView
+            android:id="@+id/iimg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center|top"
+            android:src="@drawable/icon_ocean_dolphin" />
+
+        <TextView
+            android:id="@+id/itext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ddd"
+            android:layout_gravity="center"
+            android:textColor="#ffffff" />
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="110dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="10dp"
+            android:alpha="1"
+            android:max="10"
+            android:minWidth="120dp"
+            android:visibility="invisible" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="150dp"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/toff"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="off" />
+
+            <RadioButton
+                android:id="@+id/t5"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5 minutes" />
+
+            <RadioButton
+                android:id="@+id/t10"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10 minites" />
+
+            <RadioButton
+                android:id="@+id/t15"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="15 minutes" />
+
+            <RadioButton
+                android:id="@+id/t30"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="30 minutes" />
+
+            <RadioButton
+                android:id="@+id/h1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1 hours" />
+
+            <RadioButton
+                android:id="@+id/h2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2 hours" />
+
+            <RadioButton
+                android:id="@+id/h3"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3 hours" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/tcustom"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:background="@android:drawable/editbox_background_normal"
+                android:text="custom" />
+
+            <Button
+                android:id="@+id/tcancel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:background="@android:drawable/editbox_background_normal"
+                android:text="cancel" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
